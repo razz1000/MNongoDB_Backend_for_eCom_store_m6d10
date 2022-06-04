@@ -11,7 +11,9 @@ import reviewsRouter from "./apis/reviews/index.js";
 import productsRouter from "./apis/products/index.js";
 import cartRouter from "./apis/cart/index.js";
 import usersRouter from "./apis/users/index.js";
+import dotenv from "dotenv";
 
+dotenv.config();
 const server = express();
 const port = process.env.PORT || 3001;
 
